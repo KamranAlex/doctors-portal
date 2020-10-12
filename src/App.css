@@ -7,6 +7,9 @@
 .text-brand {
   color: #1cc7c1;
 }
+.text-brand-dark {
+  color: #3a4256;
+}
 
 /* calendar design */
 .calender-area {

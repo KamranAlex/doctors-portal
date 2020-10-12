@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import chair from "../../../images/chair.png";
 
 const HeaderMain = () => {
@@ -12,7 +13,9 @@ const HeaderMain = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
           eveniet necessitatibus et iusto corrupti minima.
         </p>
-        <button className='btn btn-brand'>GET APPOINTMENT</button>
+        <Link to='/appointment'>
+          <button className='btn btn-brand'>GET APPOINTMENT</button>
+        </Link>
       </div>
       <div className='col-md-6'>
         <img src={chair} alt='' className='img-fluid' />
