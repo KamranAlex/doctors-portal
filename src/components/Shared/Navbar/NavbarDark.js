@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavbarDark = () => {
   return (
@@ -17,35 +18,36 @@ const NavbarDark = () => {
 
       <div className='collapse navbar-collapse' id='navbarSupportedContent'>
         <ul className='navbar-nav ml-auto'>
-          <li className='nav-item active'>
-            <a className='nav-link mr-5' href='#'>
-              Home <span className='sr-only'>(current)</span>
-            </a>
+          <li className='nav-item '>
+            <Link to='/' className='nav-link mr-5'>
+              Home
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mr-5' href='#'>
+            <Link className='nav-link mr-5' to='/'>
               About
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mr-5' href='#'>
-              Dental Services
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link mr-5 ' href='#'>
-              Reviews
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link mr-5 ' href='#'>
+            <Link className='nav-link mr-4' to='/'>
               Blogs
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mr-5' href='#'>
-              Contact Us
-            </a>
+            <Link to='/appointment' className='nav-link mr-4 '>
+              Get Appointment
+            </Link>
+          </li>
+
+          <li className='nav-item'>
+            <Link to='/dashboard/appointment' className='nav-link mr-4 '>
+              Dashboard
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/login' className='nav-link mr-4 '>
+              Login
+            </Link>
           </li>
         </ul>
       </div>
