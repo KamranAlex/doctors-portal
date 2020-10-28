@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Doctors Portal
+
+## _[Go Live](https://doctors-portal-8165f.web.app/)_
+
+## Main Features :
+   - **Full-stack website to make and manage doctor's appointments.**
+   - **Patients Can view available slot to make appointment by date.**
+   - **User/Patient has to  provide personal info to make an appointment.**
+   - **User/Patient can view only his/her appointment from deshboard .**
+   - **Admin/Doctor View all patients and appointments .**
+   - **Admin/Doctor can add a new doctor to the system.**
+   
+
+## Tools Used:
+   - React.js
+   - Express.js
+   - MongoDB
+   - Firebase
+   - HTML
+   - CSS
+   - Bootstrap
+
+#### _[Packages Used](./package.json)_
 
 ## Available Scripts
 
