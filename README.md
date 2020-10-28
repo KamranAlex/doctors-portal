@@ -20,7 +20,18 @@
    - CSS
    - Bootstrap
 
-#### _[Packages Used](./package.json)_
+## _[Packages Used](./package.json)_
+   - react-dom
+   - react-router-dom
+   - react-hook-form
+   - react-modal
+   - react-calendar
+   - jwt-decode 3.0.0
+   - firebase 7.22.0
+   - bootstrap 4.5.2
+   - react-fontawesome 0.1.11
+
+
 
 ## Available Scripts
 
